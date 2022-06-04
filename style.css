@@ -1,3 +1,10 @@
 #body {
   transition: all 5s;
 }
+
+.image {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfS4lSJHzw8MsdWzdiVTivTUSC-AaeBzTx5g&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
