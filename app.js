@@ -16,7 +16,8 @@ function bul() {
   if (girilen.value == sayı) {
     tahmin.innerText = `Tebrikler sayı ${girilen.value}`;
     // element.style.backgroundColor = "green";
-    element.setAttribute("class", "image");
+    tahmin.parentElement.parentElement.setAttribute("class", "image");
+
     applause.play();
   } else if (girilen.value > sayı) {
     element.style.backgroundColor = "red";
@@ -53,3 +54,6 @@ function bul() {
   //   fark1[0]
   // } Arasında Giriniz.`;
 }
+window.onload = () => {
+  girilen.focus();
+};
