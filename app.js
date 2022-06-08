@@ -34,6 +34,7 @@ function bul() {
     tahmin.innerText = `${fark2[fark2.length - 1]} -${
       fark1[0]
     } Arasında Giriniz.`;
+    girilen.value = "";
   } else if (girilen.value < sayı) {
     element.style.backgroundColor = "#FFE6E6";
     up.play();
@@ -48,6 +49,7 @@ function bul() {
     tahmin.innerText = `${fark2[fark2.length - 1]} -${
       fark1[0]
     } Arasında Giriniz.`;
+    girilen.value = "";
   }
 
   // tahmin.innerText = `${fark2[fark2.length - 1]} -${
